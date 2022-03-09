@@ -21,7 +21,7 @@ function modelLoaded() {
 
 function gotPoses(results)
 {
-    if(results.lenght > 0)
+    if(results.length > 0)
     {
         console.log(results);
         noseX = results[0].pose.nose.x;
